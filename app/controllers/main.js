@@ -1,6 +1,9 @@
 $(document).ready(function(){
     var nguoiDungService = new NguoiDungService();
     layDanhSachNguoiDung();
+    function moiTaoBranch(){
+        
+    }
     function setHeaderFooterModal(tieuDe , titleButton , idButton){
         $(".modal-title").html(tieuDe);
         var footer = `
