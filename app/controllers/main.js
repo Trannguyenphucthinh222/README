@@ -2,7 +2,7 @@ $(document).ready(function(){
     var nguoiDungService = new NguoiDungService();
     layDanhSachNguoiDung();
     function moiTaoBranch(){
-        
+        console.log("Them")
     }
     function setHeaderFooterModal(tieuDe , titleButton , idButton){
         $(".modal-title").html(tieuDe);
